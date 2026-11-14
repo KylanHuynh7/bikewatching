@@ -6,7 +6,7 @@ import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 console.log('Mapbox GL JS Loaded:', mapboxgl);
 
 // Set your Mapbox access token here
-mapboxgl.accessToken = 'YOUR_MAPBOX_PUBLIC_TOKEN';
+mapboxgl.accessToken = 'pk.eyJ1Ijoia3lsYW4taHV5bmgiLCJhIjoiY213ZnVkbzE4MGJqazJ6b2R3NDRiODVycSJ9._MlmkHAAfAfnNapoWTCuNA';
 
 const STATIONS_URL = 'https://dsc106.com/labs/lab07/data/bluebikes-stations.json';
 const TRIPS_URL = 'https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv';
